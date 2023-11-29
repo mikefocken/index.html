@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  lightgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font: white;
+    margin:0;
+    
+}
+
+header {
+    background-color: green;
+    position: relative;
+    padding: 4rem;
+
+}
+
+nav a {
+    color:aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul {
+   list-style-type:none;
+   position: absolute;
+   top: .1tres;
+   left: 1 tres; 
+   bottom:3tres;
+
+}
+
+nav li {
+    display: inline ;
+    margin-left:.5rem;
+
+}

@@ -7,8 +7,6 @@
   box-sizing: inherit;
 }
 
-
-
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -22,27 +20,173 @@ body{
     
 }
 
-header {
-    float:left;
-    display: block;
-    padding: 2rem;
+nav {
+  
     background-color: rgb(219, 196, 196);
     margin: 0;
     width: 100%;
     box-sizing: border-box;
 }
+header {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.hero-image {
+  background-image: url("earl-wilcox-y3W0CzO063w-unsplash-alt");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
 
 
 
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text1 {
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .TextSmall {
+    
+    border-radius: 25px;
+    border: 10px solid #ada121;
+    padding: 40px;
+    width: 1000px;
+    height: 100px;
+    text-align: justify;
+}
+.smallpictures {
+    
+    border-radius: 25px;
+    border: 0px solid #ada121;
+    padding: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: justify;
+}
+
+.flex-container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin:auto;
+}
+.Product{
+  width: 60%;
+  text-align: center;
+}
+img{
+  max: width 120%;
+  height: auto;
+  margin: 10px;
+}
+
+.ProductRow {
+  border-radius: 1px;
+  border: 0px solid  black;
+  padding: 1px;
+  width: 2000px;
+  height: 200px;
+  text-align: justify; 
+
+}
+
+.ProductNameAndPrice{
+  border-radius: 25px;
+    display:inline;
+    border: 0px solid #ada121;
+    padding: 1px;
+    width: 5px;
+    height: 20px;
+    text-align: justify;
+}
+.flex-container2{
+  display: inline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin:20px;
+  justify-content: space-between;
+  
+}
+.flex-item{
+  margin-right:75px ;
+}
 
 
- 
- 
+.ProductText{
+  border-radius: 25px;
 
+  border: 5px solid #ada121;
+  padding: 100px;
+  width: 60px;
+  height: 100px;
+  text-align: justify;
+}
+.wrap-text{
+  width: 50%;
+  float: left;
+  margin: right 20px;
+}
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
 
-
+div.desc {
+  padding: 15px;
+  text-align: center;
